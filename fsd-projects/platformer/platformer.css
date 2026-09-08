@@ -8,6 +8,7 @@ body {
 }
 
 canvas {
+  background-image: url("images/officebackground.webp");
   background-color: lightblue;
   margin: 20px;
   border-radius: 15px;
