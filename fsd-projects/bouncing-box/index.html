@@ -59,9 +59,7 @@
         box.on("click", handleBoxClick);
 
         // moves the Box to a new position on the screen along the X-Axis
-        function moveBoxTo(newPositionX) {
-          box.css("left", newPositionX);
-        }
+
         function moveBoxTo(newPositionX, newPositionY) {
           box.css("left", newPositionX);
           box.css("top", newPositionY);
@@ -112,7 +110,7 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
-          positionX === 0;
+          positionX = 0;
           changeBoxText(points);
           points++; // Increases variableName by 1
           speed = 3 * points + 10;
