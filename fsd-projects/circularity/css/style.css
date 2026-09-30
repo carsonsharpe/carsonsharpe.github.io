@@ -47,3 +47,12 @@
     background: #0080FF;
     color: white;
 }
+
+body {
+                background: url("../img/Jimbobackground2.webp") no-repeat center center fixed;
+                background-color: #cccccc;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
